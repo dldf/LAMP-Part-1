@@ -1,0 +1,35 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    max-width: 800px;
+    min-width: 280px;
+    margin: auto;
+}
+#btns {
+    text-align: center;
+}
+
+#apiData {
+    border: 2px solid dimgray;
+    background-color:aliceblue;
+    padding: 2em;
+    margin: 20px auto;
+    height: 190px;
+    display: flex;
+    flex-direction: column;
+}
+
+img.user {
+    border: 10px solid dimgray;
+    background-color: dimgrey;
+    border-radius: 40%;
+    width: 128px;
+    height: 128px;
+    display: block;
+    margin: auto;
+}
+
+h2.user{
+    color:dimgray;
+    text-align: center;
+    margin: 5px;
+}
